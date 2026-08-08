@@ -94,7 +94,14 @@ export default function Projects() {
                                 <div className="h-2.5 w-2.5 rounded-full bg-green-400/80" />
                             </div>
 
-                            <div className="aspect-[4/3] bg-gradient-to-br from-neutral-900 via-neutral-950 to-black"></div>
+                            <div className="relative aspect-[4/3] overflow-hidden rounded-b-xl">
+                                <Image
+                                    src="/images/pocketpal.png"
+                                    alt="PocketPal"
+                                    fill
+                                    className="object-cover object-top transition-transform duration-500 hover:scale-[1.03]"
+                                />
+                            </div>
                         </div>
 
                         <h3 className="text-xl font-medium text-white">
@@ -106,6 +113,26 @@ export default function Projects() {
                             track expenses, manage budgets, and visualize spending
                             through a clean and intuitive interface.
                         </p>
+
+                        <div className="mt-6 flex items-center gap-4">
+                            <a
+                                href="https://pocketpal-kavya.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="rounded-full bg-white px-5 py-2.5 text-sm font-medium text-black transition-all duration-300 hover:-translate-y-0.5"
+                            >
+                                Live Demo
+                            </a>
+
+                            <a
+                                href="https://github.com/Kavya437/pocketpal"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm text-neutral-400 transition-colors duration-300 hover:text-white"
+                            >
+                                View Code →
+                            </a>
+                        </div>
                     </div>
 
                     <div className="rounded-3xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-white/20">
@@ -116,16 +143,31 @@ export default function Projects() {
                                 <div className="h-2.5 w-2.5 rounded-full bg-green-400/80" />
                             </div>
 
-                            <div className="aspect-[4/3] bg-gradient-to-br from-neutral-900 via-neutral-950 to-black"></div>
+                            <div className="relative aspect-[4/3] overflow-hidden rounded-b-xl">
+                                <Image
+                                    src="/images/agrismart.jpeg"
+                                    alt="AgriSmart"
+                                    fill
+                                    className="object-contain p-2 transition-transform duration-500 hover:scale-[1.03]"
+                                />
+                            </div>
                         </div>
 
-                        <h3 className="text-xl font-medium text-white">
-                            AgriSmart
-                        </h3>
+                        <div className="flex items-center justify-between">
+                            <h3 className="text-xl font-medium text-white">
+                                AgriSmart
+                            </h3>
+
+                            <span className="rounded-full border border-neutral-700 bg-neutral-900/60 px-3 py-1 text-xs text-neutral-300">
+                                Team Project
+                            </span>
+                        </div>
 
                         <p className="mt-3 leading-7 text-neutral-400">
-                            An AI-powered crop recommendation platform that helps
-                            farmers make data-driven agricultural decisions.
+                            An AI-powered crop recommendation platform that suggests suitable crops
+                            based on soil, weather, and environmental conditions. I contributed to
+                            the frontend development, documentation, and project presentation as part
+                            of a team.
                         </p>
                     </div>
                 </div>
