@@ -78,13 +78,23 @@ export default function Projects() {
                         </div>
                         <div className="flex items-center gap-4">
                             <div className="mt-8 flex items-center justify-between">
-                                <button className="rounded-full bg-white px-6 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-xl active:scale-95">
+                                <a
+                                    href="https://ai-commerce-os-liart.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="rounded-full bg-white px-6 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-xl active:scale-95"
+                                >
                                     Live Demo
-                                </button>
+                                </a>
 
-                                <button className="text-neutral-400 transition-colors duration-300 hover:text-white">
+                                <a
+                                    href="https://github.com/Kavya437/ai-commerce-os"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-neutral-400 transition-colors duration-300 hover:text-white"
+                                >
                                     View Code →
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -34,13 +34,20 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="mt-16 flex items-center gap-4">
-          <button className="rounded-full bg-white px-7 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-xl active:scale-95">
+          <a
+            href="#projects"
+            className="rounded-full bg-white px-7 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-xl active:scale-95"
+          >
             View Projects
-          </button>
+          </a>
 
-          <button className="rounded-full border border-white/10 px-7 py-3 font-medium text-white transition-all duration-300 hover:-translate-y-1 hover:border-white/30 hover:bg-white/5 active:scale-95">
+          <a
+            href="/resume.pdf"
+            download
+            className="rounded-full border border-white/10 px-7 py-3 font-medium text-white transition-all duration-300 hover:-translate-y-1 hover:border-white/30 hover:bg-white/5 active:scale-95"
+          >
             Download Resume
-          </button>
+          </a>
         </div>
       </div>
     </section>
