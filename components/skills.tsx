@@ -25,7 +25,7 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="mx-auto max-w-7xl px-6 py-28"
+            className="mx-auto max-w-7xl px-6 py-20"
         >
             <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">
                 Skills

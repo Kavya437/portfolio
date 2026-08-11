@@ -37,3 +37,71 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans);
 }
+
+/* Light theme */
+.light body {
+    background: #f8f7fb;
+    color: #18181b;
+}
+
+.light .bg-black\/70 {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.light .bg-white\/5 {
+    background-color: rgba(255, 255, 255, 0.72);
+}
+
+.light .bg-white {
+    background-color: #18181b;
+}
+
+.light .text-white {
+    color: #18181b;
+}
+
+.light .text-black {
+    color: #ffffff;
+}
+
+.light .text-neutral-300 {
+    color: #404040;
+}
+
+.light .text-neutral-400 {
+    color: #525252;
+}
+
+.light .text-neutral-500 {
+    color: #737373;
+}
+
+.light .border-white\/10 {
+    border-color: rgba(0, 0, 0, 0.10);
+}
+
+.light .border-white\/20 {
+    border-color: rgba(0, 0, 0, 0.16);
+}
+
+.light .hover\:text-white:hover {
+    color: #18181b;
+}
+
+.light .hover\:bg-white\/5:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Light theme cards and technology pills */
+.light .rounded-3xl {
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+.light .rounded-full {
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.light .rounded-full.bg-white\/5 {
+    background-color: #f1f1f3;
+    color: #3f3f46;
+}

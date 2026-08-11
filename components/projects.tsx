@@ -3,7 +3,7 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="mx-auto max-w-6xl px-10 py-32 lg:px-16"
+            className="mx-auto max-w-6xl px-10 py-20 lg:px-16"
         >
             <div className="mb-16">
                 <p className="text-sm uppercase tracking-[0.22em] text-neutral-500">
@@ -42,9 +42,15 @@ export default function Projects() {
 
                     <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
                         <div className="flex-1">
-                            <h3 className="text-2xl font-medium text-white">
-                                AI Commerce OS
-                            </h3>
+                            <div className="flex items-center gap-3">
+                                <h3 className="text-2xl font-medium text-white">
+                                    AI Commerce OS
+                                </h3>
+
+                                <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-neutral-400">
+                                    Featured
+                                </span>
+                            </div>
 
                             <p className="mt-4 max-w-2xl leading-8 text-neutral-400">
                                 A modern AI-powered ecommerce dashboard built with
@@ -169,6 +175,15 @@ export default function Projects() {
                             the frontend development, documentation, and project presentation as part
                             of a team.
                         </p>
+
+                        <a
+                            href="https://github.com/Kavya437/AGRISMART"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-5 inline-block text-sm text-neutral-400 transition-colors duration-300 hover:text-white"
+                        >
+                            View Code →
+                        </a>
                     </div>
                 </div>
             </div>

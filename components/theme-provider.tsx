@@ -1,21 +1,18 @@
 "use client";
 
-import * as React from "react";
-import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { ClientThemeProvider } from "@wrksz/themes/client";
 
-export function ThemeProvider({
-  children,
+export default function ThemeProviderWrapper({
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <NextThemesProvider
-      attribute="class"
-      defaultTheme="dark"
-      enableSystem
-      disableTransitionOnChange
-    >
-      {children}
-    </NextThemesProvider>
-  );
+    return (
+        <ClientThemeProvider
+            defaultTheme="dark"
+            attribute="class"
+        >
+            {children}
+        </ClientThemeProvider>
+    );
 }
